@@ -123,7 +123,7 @@ public class Menu_Ciclos {
                 break;
         }
       //INSTANCIA DE LA CLASE:
-        Condicionales cond = Condicionales(pregunta, numero);
+        Condicionales cond = new Condicionales(pregunta, numero);
         cond.cIfElse(pregunta);
         cond.cIfElseIf(numero);
         cond.cIfElseElse(numero);    
