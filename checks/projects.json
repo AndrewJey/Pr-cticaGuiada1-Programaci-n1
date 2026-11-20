@@ -1,0 +1,16 @@
+[
+  {
+    "project": "1er Práctica/1y2/PracticaGuiadaProgra/build.xml",
+    "source": "checks/GuidedGeometryCheck.java",
+    "main": "GuidedGeometryCheck",
+    "headless": true,
+    "classpath": []
+  },
+  {
+    "project": "3ra Práctica/Menu_Ciclos/build.xml",
+    "source": "checks/ConditionalCheck.java",
+    "main": "ConditionalCheck",
+    "headless": true,
+    "classpath": []
+  }
+]

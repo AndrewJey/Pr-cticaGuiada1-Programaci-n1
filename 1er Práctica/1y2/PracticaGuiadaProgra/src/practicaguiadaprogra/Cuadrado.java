@@ -25,14 +25,14 @@ public class Cuadrado extends Figuras.FigurasGeometricas {
      * @return lado*4
      */
     public float Perimetro () {
-        return lal*4;
+        return (float) lal*4;
     }  
     /**
      * Método Área
      * @return lado * lado
      */
     public float Area () {
-        return lal*lal;
+        return (float) lal*(float) lal;
     }
      /**
      * Método toString()

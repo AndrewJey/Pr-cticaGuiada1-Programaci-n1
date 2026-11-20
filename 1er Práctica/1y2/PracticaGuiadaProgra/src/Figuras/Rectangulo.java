@@ -25,14 +25,14 @@ public class Rectangulo extends Figuras.FigurasGeometricas {
      * @return ((bal*2)+(lal*2))
      */
     public float Perimetro () {
-        return ((lal*2)+(bal*2));
+        return (((float) lal*2)+((float) bal*2));
     }  
     /**
      * Método Área
      * @return base * alto
      */
     public float Area () {
-        return lal*bal;
+        return (float) lal*(float) bal;
     }
      /**
      * Método toString()

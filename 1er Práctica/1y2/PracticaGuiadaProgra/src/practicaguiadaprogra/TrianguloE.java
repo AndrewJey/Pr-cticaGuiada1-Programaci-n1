@@ -19,7 +19,7 @@ public class TrianguloE extends Figuras.FigurasGeometricas {
      * @return lado*3
      */
     public float Perimetro () {
-        return lal*3;
+        return (float) lal*3;
     }  
     /**
      * Método Área
@@ -27,7 +27,7 @@ public class TrianguloE extends Figuras.FigurasGeometricas {
      */
     public float Area () {
         //base * altura / 2
-        return lal*bal/2;
+        return (float) lal*(float) bal/2;
     }
      /**
      * Método toString()

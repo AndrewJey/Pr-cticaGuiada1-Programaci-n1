@@ -41,9 +41,9 @@ public class Condicionales {
     }
     //Método de Condicional if-else
     public String cIfElse(String pregunta1) {
-        pregunta1 = JOptionPane.showInputDialog("Digite una letra del A a la Z en mayúscula");
+
         //¿Es la variable pregunta1 igual a "B"
-        if (pregunta1 == "B") { //Si la variable pregunta1, sí es igual a "B", entonces:            
+        if ("B".equals(pregunta1)) { //Si la variable pregunta1, sí es igual a "B", entonces:            
             System.out.println("Si es igual a B");
         } else { //Si la variable pregunta1, NO es igual a "B", entonces:            
             System.out.println("No es igual a B");
@@ -54,7 +54,7 @@ public class Condicionales {
     //Método de Condicional if-else-if
     public int cIfElseIf(int numero1) {
         int respuesta;
-        numero1 = Integer.parseInt(JOptionPane.showInputDialog("Digite un número del 0 al 9"));
+
         //¿Es la variable numero1 igual a "1"
         if (numero1 == 1) { //Si la variable numero1, SÍ es igual a 1, entonces:            
             System.out.println("Si es igual a 1");
@@ -69,7 +69,7 @@ public class Condicionales {
     }
     //Método de Condicional if-else-else
     public int cIfElseElse(int numero2) {
-        numero2 = Integer.parseInt(JOptionPane.showInputDialog("Digite un número del 0 al 9"));
+
         //¿Es la variable numero2 igual a "1"
         if (numero2 == 1) { //Si la variable numero2, SÍ es igual a 1, entonces:            
             System.out.println("Si es igual a 1");
@@ -86,11 +86,6 @@ public class Condicionales {
     //ToString de la Clase
     @Override
     public String toString() {
-        //El retorno se concatenó de manera no lineal, pero la impresión, si será lineal:
-        return "Condicionales{" + "pregunta=" 
-                + pregunta + ", numero=" + numero 
-                + '}' + "Los métodos resultaron: " 
-                + this.cIfElse(pregunta) + this.cIfElseIf(numero)
-                + "según se solicitaron";
+        return "Condicionales{pregunta=" + pregunta + ", numero=" + numero + "}";
     }
 }

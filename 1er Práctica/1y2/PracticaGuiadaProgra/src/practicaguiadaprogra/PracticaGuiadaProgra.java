@@ -19,16 +19,8 @@ public class PracticaGuiadaProgra extends Object {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        //VARIABLES (en main deben estar inicializadas)
-        int lal = 0; //Variable lal de tipo entero
-        int lab = 0; //Variable lab de tipo entero
-        //INSTANCIAS
-        //nombredelpaquete.NombreDeLaClase nombreDeLaInstancia = new nombredelpaquete.NombreDeLaClase(tipoVariable nombreVariable);
-        Figuras.FigurasGeometricas fg = new Figuras.FigurasGeometricas(lal, lab);        
-        //NombreDeLaClase nombreDeLaInstancia = new NombreDeLaClase(variables);
-      
-        //IMPRESIONES
-      
+        System.out.println(new Cuadrado(4, 4));
+        System.out.println(new Figuras.Rectangulo(4, 3));
+        System.out.println(new TrianguloE(3, 3));
     }      
 }
